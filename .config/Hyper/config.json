@@ -1,0 +1,14 @@
+{
+	"windowPosition": [
+		378,
+		478
+	],
+	"windowSize": [
+		695,
+		456
+	],
+	"hyper": {
+		"plugins": "{\"plugins\":[\"hyper-omni-theme\",\"hyper-mac-controls\"],\"localPlugins\":[]}",
+		"plugin-versions": "[[\"hyper-omni-theme\",\"1.0.0\"],[\"hyper-mac-controls\",\"1.2.0\"]]"
+	}
+}
