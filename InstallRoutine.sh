@@ -4,7 +4,7 @@ echo "Updating"
 sudo apt update
 echo "Upgrading"
 sudo apt upgrade
-echo "Downloading Omni Theme Terminal"
+echo "Downloading Omni Theme for Gnome Terminal"
 git clone https://github.com/getomni/gnome-terminal.git
 cd gnome-terminal
 ./install.sh
@@ -71,9 +71,9 @@ wget "https://cdn.akamai.steamstatic.com/client/installer/steam.deb" -O steam.de
 sudo dpkg -i steam.deb
 echo "Downloading MS Teams"
 wget "https://go.microsoft.com/fwlink/p/?LinkID=2112886&clcid=0x416&culture=pt-br&country=BR" -O teams.deb
-sudo dpkg -i teams.deb
+sudo dpkg -i teams.debhttps://iriun.gitlab.io
 echo "Downloading Iriun WebCam"
-wget "https://iriun.gitlab.io/iriunwebcam-2.7.deb" -O iriun.deb
+wget "https://iriun.gitlab.io/iriunwebcam-2.3.1.deb" -O iriun.deb
 sudo dpkg -i iriun.deb
 
 
